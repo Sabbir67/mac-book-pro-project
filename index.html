@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>MacBookPro</title>
+    <style>
+        td{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>  
+
+    <main>
+        <div class="container">
+            <div class="d-flex row">
+              <div class="col-md-4 col-lg-4">
+                <img class="w-100" src="images/mac.png" alt="">
+              </div>
+              <div class="col-md-8 col-lg-8 ps-2">
+                <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                <p>Apple M1 chip with 8‑core CPU, 8‑core GPU, and 16‑core Neural Engine 8GB unified memory 256GB SSD storage 13 -inch Retina display with True Tone Backlit Magic Keyboard - US English Touch Bar and Touch ID Two Thunderbolt / USB 4 ports</p>
+                <br>
+                <h4>Memory</h4>
+                <button id="8gb-memory" class="rounded">8GB unified memory</button>
+                <button id="16gb-memory" class="rounded">16GB unified memory</button>
+                <br><br>
+                <h4>Storage</h4>
+                <button id="256gb-storage" class="rounded">256GB SSD Storage</button>
+                <button id="512gb-storage" class="rounded">512GB SSD Storage</button>
+                <button id="1tb-storage" class="rounded">1TB SSD Storage</button>
+                <br><br>
+                <h4>Choose yout delivery option</h4>
+                <button id="delivery-free" class="rounded">Friday, Aug 25 FREE Prime Delivery</button>
+                <button id="delivery-paid" class="rounded">Friday, Aug 21 Delivery Charge &20</button>
+
+                <div class="d-flex row">
+                    <div class="col-md-4 col-lg-4">
+                        <table class="table">
+                        
+                            <tbody>
+                              <tr>
+                                <td>Best Price </td>
+                                <td>$<span id="best-price">1299</span> </td>
+                              </tr>
+                              <tr>
+                                <td>Extra Memory Cost </td>
+                                <td>$<span id="extra-memory">0</span> </td>
+                              </tr>
+                              <tr>
+                                <td>Extra Storage Cost </td>
+                                <td>$<span id="extra-storage">0</span></td>
+                              </tr>
+                              <tr style="border-bottom: 2px  solid;">
+                                <td>Delivery Charge </td>
+                                <td>$<span id="delivery-charge">0</span></td>
+                              </tr>
+                              
+                              <tr>
+                                <td>Total Price</td>
+                                <td>$<span id="total-price">1299</span></td>
+                              </tr>
+
+                              
+                            </tbody>
+                          </table>
+                    </div>
+                    
+                </div>
+                <br>
+                <h5>Add Promo Code</h5>
+                <input id="promo-input" type="text" placeholder="Enter Promo Code">
+                <button id="promo-button" class="bg-danger text-white ps-4 pe-4 rounded">Apply</button>
+
+                
+                
+                
+              </div>
+              
+            </div>
+          </div>
+        
+    </main>
+    <hr>
+    <h3 class="text-center" >Total: $ <span id="allTotalValue">1299</span> </h3>
+
+
+
+
+
+
+
+
+
+    
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+    <!-- JS Source -->
+    <script src="app.js"></script>
+</body>
+</html>
