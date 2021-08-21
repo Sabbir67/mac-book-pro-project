@@ -275,6 +275,7 @@ document.getElementById('promo-button').addEventListener('click',function(){
         allTotalValue.innerText = promovalue;
         console.log(allTotalValueAmount + " "+ promovalue);
         promoClickCheck = 1;
+        promoInput.value = '';
 
     }else{
         if(promoClickCheck == 1){
